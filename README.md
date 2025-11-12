@@ -12,7 +12,7 @@ This project demonstrates a simple PHP application that connects to a database a
 2. **Creating the API URL**
 Then, the script builds a URL for the Spoonacular API:
 
-`sql$url = "https://api.spoonacular.com/recipes/findByIngredients?ingredients=" . urlencode($ingredients) . "&number=6&apiKey=" . $apiKey;`
+`$url = "https://api.spoonacular.com/recipes/findByIngredients?ingredients=" . urlencode($ingredients) . "&number=6&apiKey=" . $apiKey;`
 This URL fetches 6 recipes based on the ingredients entered by the user.
 
 3.**Fetching data from the API**
