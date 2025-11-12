@@ -1,0 +1,8 @@
+CREATE DATABASE emptyfridge;
+USE emptyfridge;
+
+CREATE TABLE searches (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  ingredients VARCHAR(255),
+  search_time DATETIME
+);
