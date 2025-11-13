@@ -1,4 +1,4 @@
-# EmptyFridge
+#  EmptyFridge
 
 This project demonstrates a simple PHP application that connects to a database and fetches recipes from the Spoonacular API based on ingredients provided by the user.
 
